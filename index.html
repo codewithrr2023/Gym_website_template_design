@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- https://demo.templatemonster.com/demo/189515.html?_gl=1*1o6d2gg*_ga*NDcwOTQyMTc4LjE2OTAxODkyNzE.*_ga_FTPYEGT5LY*MTY5MDE4OTI3MC4xLjEuMTY5MDE5MTA5MS4zMy4wLjA.&_ga=2.90102046.467456834.1690189273-470942178.1690189271 -->
+
+    <!-- https://www.youtube.com/watch?v=0OPlRayQFvw -->
+
+    <div class="mobile-nav">
+        <i class="fa-solid fa-bars" style="color:white" class="menu"></i>
+        <i class="fa-solid fa-xmark" style="color:white"></i>
+    </div>
+
+    <div class="show">
+        <div class="show-logo">
+            <a href="#"><img src="images/logo.png" alt=""></a>
+        </div>
+    </div>
+    <header class="header">
+
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="#"><img src="images/logo.png" alt=""></a>
+            </div>
+            <div class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Class</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Trainer</a></li>
+                    <li><a href="#">Review</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <hero class="hero">
+        <div class="gallery image-one" style="background-image: url(./images/image1.jpeg);">
+            <div class="content">
+                <div class="title">
+                    We are best Powerful 
+                    <br>Sport Nutrition 
+                </div>
+                <div class="para">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ducimus magni adipisci maiores odit corporis?
+                </div>
+                <button class="btn sign_up">Sign Up</button>
+                <button class="btn detail">Details</button>
+            </div>
+        </div>
+
+        <div class="gallery image-two" style="background-image: url(./images/image2.jpeg);">
+            <div class="content">
+                <div class="title">
+                    We are best Powerful 
+                    <br>Sport Nutrition 
+                </div>
+                <div class="para">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ducimus magni adipisci maiores odit corporis?
+                </div>
+                <button class="btn sign_up">Sign Up</button>
+                <button class="btn detail">Details</button>
+            </div>
+        </div>
+
+        <div class="gallery image-three" style="background-image: url(./images/image3.jpg);">
+            <div class="content">
+                <div class="title">
+                    
+				Make a weight Lose in 
+                <br>Your Gymness   
+                </div>
+                <div class="para">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti ducimus magni adipisci maiores odit corporis?
+                </div>
+                <button class="btn sign_up">Sign Up</button>
+                <button class="btn detail">Details</button>
+            </div>
+        </div>
+
+        <div class="play">
+            <div class="circle one active"></div>
+            <div class="circle two"></div>
+            <div class="circle three"></div>
+        </div>
+
+        <div class="controller">
+            <button class="prev" onclick="controller(-1)">&#10094</button>
+            <button class="next" onclick="controller(+1)">&#10095</button>
+        </div>
+        
+    </hero>
+
+    <!-- training details -->
+
+    <div class="training">
+        <div class="training-container">
+            <div class="left">
+                <img src="images/banner.jpg" alt="">
+            </div>
+            <div class="right">
+                <h1 class="title">Your Gym helps in this Expert Trainers.</h1>
+                <p class="para">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.</p>
+                <h3 class="sub-heading">Upcoming Training</h3>
+                <div class="training-date">
+                    <div class="date-left">
+                        <p>4 July, 2023</p>
+                        <h3>Making it over 2000 years old Gym & Fitness</h3>
+                    </div>
+                    <div class="date-right">
+                        <p>4 July, 2023</p>
+                        <h3>Making it over 2000 years old Gym & Fitness</h3>
+                    </div>
+                </div>
+                <button class="btn training-btn">My Training Details</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- main-counter section -->
+
+    <div class="main-counter">
+        <div class="main-counter-container">
+            <div class="main-counter-box">
+                <h1 class="count" data-count="325">0</h1>
+                <h3>Course</h3>
+            </div>
+
+            <div class="main-counter-box">
+                <h1 class="count" data-count="405">0</h1>
+                <h3>Work Out</h3>
+            </div>
+
+            <div class="main-counter-box">
+                <h1 class="count" data-count="305">0</h1>
+                <h3>Working Hours</h3>
+            </div>
+
+            <div class="main-counter-box">
+                <h1 class="count" data-count="705">0</h1>
+                <h3>Happy Client</h3>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Work out -->
+
+    <section class="workout">
+        <div class="workout-container">
+            <div class="workout-content">
+                <h1 class="title">Workout of the day</h1>
+                <p class="para">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                <h4 class="sub-title">Burn & Fat Muscle</h4>
+                <div class="duration-wrapper">
+                    <strong>Duration </strong>
+                    : 35 Min
+                     
+                </div>
+                <div class="duration-wrapper">
+                    <strong>Level</strong>
+                    : Medium
+                </div>
+                <div class="caloris red">
+                    <h3 class="progress-title">Calories</h3>
+                    <div class="progress-bar">
+                        <div class="progress-value">
+                            80%
+                        </div>
+                    </div>
+                </div>
+                <div class="energy">
+                    <h3 class="progress-title">Energy</h3>
+                    <div class="progress-bar">
+                        <div class="progress-value">
+                            65%
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="workout-image">
+                <img src="images/workoutimage.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Our classes -->
+
+    <section class="classes">
+        <div class="classes-container">
+            <h1 class="classes-title">OUR CLASSES</h1>
+            <span></span>
+            <span></span>
+            <span class="long"></span>
+            <p class="classes-para">Lorem Ipsum is not simply random text. It has roots in a piece of <br> classical at Hampden-Sydney College.</p>
+            <div class="classes-wrapper-header">
+                <button class="btn classes-wrapper-btn active">Yoga</button>
+                <button class="btn classes-wrapper-btn">Group</button>
+                <button class="btn classes-wrapper-btn">Solo</button>
+                <button class="btn classes-wrapper-btn">Stetching</button>
+            </div>
+
+            <div class="classes-wrapper active">
+                <div class="classes-wrapper-box">
+                    <div class="classes-left">
+                        <h3>Why are your Yoga?</h3>
+                        <p class="classes-left-para">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true Clicking generator on the Internet.</p>
+                        <h3 class="classes-left-subheading">When comes Yoga Your Time.</h3>
+                        <p class="classes-left-subpara">Saturday-Sunday: 8:00am - 10:00am</p>
+                        <p class="classes-left-subpara">Monday-Tuesday: 10:00am - 12:00pm</p>
+                        <p class="classes-left-subpara">Wednesday-Friday: 3:00pm - 6:00pm</p>
+                        <button class="btn classes-left-btn">Contact Now</button>
+                    </div>
+                    <div class="classes-right">
+                        <img src="images/image2.jpeg" alt="">
+                    </div>
+                </div> 
+            </div>
+
+            <div class="classes-wrapper">
+                <div class="classes-wrapper-box">
+                    <div class="classes-right">
+                        <img src="images/image1.jpeg" alt="">
+                    </div>
+                    <div class="classes-left special">
+                        <h3>Why are your Yoga?</h3>
+                        <p class="classes-left-para">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true Clicking generator on the Internet.</p>
+                        <h3 class="classes-left-subheading">When comes Yoga Your Time.</h3>
+                        <p class="classes-left-subpara">Saturday-Sunday: 8:00am - 10:00am</p>
+                        <p class="classes-left-subpara">Monday-Tuesday: 10:00am - 12:00pm</p>
+                        <p class="classes-left-subpara">Wednesday-Friday: 3:00pm - 6:00pm</p>
+                        <button class="btn classes-left-btn">Contact Now</button>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="classes-wrapper">
+                <div class="classes-wrapper-box">
+                    <div class="classes-left">
+                        <h3>Why are your Yoga?</h3>
+                        <p class="classes-left-para">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true Clicking generator on the Internet.</p>
+                        <h3 class="classes-left-subheading">When comes Yoga Your Time.</h3>
+                        <p class="classes-left-subpara">Saturday-Sunday: 8:00am - 10:00am</p>
+                        <p class="classes-left-subpara">Monday-Tuesday: 10:00am - 12:00pm</p>
+                        <p class="classes-left-subpara">Wednesday-Friday: 3:00pm - 6:00pm</p>
+                        <button class="btn classes-left-btn">Contact Now</button>
+                    </div>
+                    <div class="classes-right">
+                        <img src="images/image2.jpeg" alt="">
+                    </div>
+                </div>   
+            </div>
+
+            <div class="classes-wrapper">
+                <div class="classes-wrapper-box">
+                    <div class="classes-right">
+                        <img src="images/image1.jpeg" alt="">
+                    </div>
+                    <div class="classes-left special">
+                        <h3>Why are your Yoga?</h3>
+                        <p class="classes-left-para">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true Clicking generator on the Internet.</p>
+                        <h3 class="classes-left-subheading">When comes Yoga Your Time.</h3>
+                        <p class="classes-left-subpara">Saturday-Sunday: 8:00am - 10:00am</p>
+                        <p class="classes-left-subpara">Monday-Tuesday: 10:00am - 12:00pm</p>
+                        <p class="classes-left-subpara">Wednesday-Friday: 3:00pm - 6:00pm</p>
+                        <button class="btn classes-left-btn">Contact Now</button>
+                    </div>  
+                </div>   
+            </div>
+        </div>
+    </section>
+
+    <!-- BMI calculator -->
+
+    <section class="bmi">
+        <div class="bmi-container">
+            <div class="bmi-left">
+                <h1 class="bmi-left-head">Bmi Calculator</h1>
+                <p class="first">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                <p class="second">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                <h4 class="bmi-left-subhead">Your Bmi</h4>
+                <p class="bmi-left-subpara">28.6 Normal Weight</p>
+                <div class="bmi-left-wrapper">
+                    <div class="height">
+                        <p class="bmi-left-subpara">Your Height</p>
+                        <select name="" id="">
+                            <option value="1.6 cm">1.6 cm</option>
+                            <option value="">2.5 cm</option>
+                            <option value="">3.5 cm</option>
+                            <option value="">4.3 cm</option>
+                            <option value="">5.5 cm</option>
+                        </select>    
+                    </div>
+                    <div class="weight">
+                        <p class="bmi-left-subpara">Your Weight</p>
+                        <select name="" id="">
+                            <option value="1.6 cm">50</option>
+                            <option value="">60</option>
+                            <option value="">70</option>
+                            <option value="">80</option>
+                            <option value="">90</option>
+                        </select> 
+                    </div>
+                </div>
+                <button class="btn bmi-btn">Compute BMI</button>
+            </div>
+            <div class="bmi-right">
+                <img src="images/bmi.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- our best trainers -->
+
+    <section class="trainer">
+        <div class="trainer-container">
+            <h1 class="trainer-head">OUR BEST TRAINERS</h1>
+            <span></span>
+            <span></span>
+            <span class="long"></span>
+            <p class="trainer-para">Lorem Ipsum is not simply random text. It has roots in a piece of <br> classical at Hampden-Sydney College.</p>
+
+            <div class="trainer-wrapper">
+                <div class="trainer-box">
+                    <img src="images/trainer1.jpg" alt="">
+                </div>
+
+                <div class="trainer-box">
+                    <img src="images/trainer2.jpg" alt="">
+                </div>
+
+                <div class="trainer-box">
+                    <img src="images/trainer3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- subscribe today -->
+
+    <section class="subscribe">
+        <div class="subscribe-container">
+            <h1 class="subscribe-head">Subcribe Today of Newletter</h1>
+            <form action="" class="subscribe-form">
+                <input type="text">
+                <button class="btn subscribe-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- contact us section -->
+
+    <section class="contact_us">
+        <div class="contact_us-container">
+            <h1 class="contact_us-head">CONTACT US</h1>
+            <span></span>
+            <span></span>
+            <span class="long"></span>
+            <p class="contact_us-para">Lorem Ipsum is not simply random text. It has roots in a piece of <br> classical Hampden-Sydney College.</p>
+
+            <div class="contact_us-wrapper">
+                <div class="contact_us-left">
+
+                    <div class="contact-details">
+                        <div class="contact">
+                            <h4 class="contact-details-head">Mobile Number</h4>
+                            <p class="contact-details-para">+135 773 321 4442</p>
+                        </div>
+                        <div class="contact">
+                            <h4 class="contact-details-head">Email Address</h4>
+                            <p class="contact-details-para">demo@example.com</p>
+                        </div>
+                    </div>
+                    <form action="" class="appointment">
+                        <h2>Make An Appoinment</h2>
+                        <input type="text" placeholder="Your Name"><br>
+                        <input type="text" placeholder="Your Email">
+                        <textarea name="" id="" cols="30" rows="7"></textarea>
+                        <button class="btn message">Send Message</button>
+                    </form>
+
+                </div>
+                <div class="contact_us-right">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60505.62113453259!2d73.88478319326647!3d18.592004277660465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c6a3663ec599%3A0x43c3767a3fdbae96!2sLohegaon%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1690347022616!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Font awesone link -->
+    <script src="https://kit.fontawesome.com/f7614b5184.js" crossorigin="anonymous"></script>
+
+    <!-- JS link for using javascript -->
+    <script src="index.js"></script>
+
+</body>
+</html>
